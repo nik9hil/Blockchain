@@ -3,6 +3,7 @@ import datetime
 #contains hashing algorithms
 import hashlib
 #defining the 'block' data structure
+import time
 class Block:
     #each block has 7 attributes 
   
@@ -121,3 +122,6 @@ for n in range(10):
 while blockchain.head != None:
     print(blockchain.head)
     blockchain.head = blockchain.head.next
+
+    
+time.sleep(500)
