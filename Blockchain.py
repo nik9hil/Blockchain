@@ -56,7 +56,7 @@ class Block:
 
     def __str__(self):
         #print out the value of a block
-        return "Block Hash: " + str(self.hash()) + "\nBlockNo: " + str(self.blockNo) + "\nBlock Data: " + str(self.data) + "\nHashes: " + str(self.nonce) +"\nTimeStamp: "+str(self.timestamp)+"\nPrevious Hash: "+str.(self.previous_hash)+"\n--------------"
+        return "Block Hash: " + str(self.hash()) + "\nBlockNo: " + str(self.blockNo) + "\nBlock Data: " + str(self.data) + "\nHashes: " + str(self.nonce) +"\nTimeStamp: "+str(self.timestamp)+"\nPrevious Hash: "+str(self.previous_hash)+"\n--------------"
 #defining the blockchain datastructure
 #consists of 'blocks' linked together
 #to form a 'chain'. Thats why its called
